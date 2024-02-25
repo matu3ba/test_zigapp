@@ -1,0 +1,26 @@
+.{
+    .name = "test_zigapp",
+    .version = "0.0.0",
+    .minimum_zig_version = "0.11.0",
+    .dependencies = .{
+        .test_ziglib = .{
+            .url = "https://github.com/matu3ba/test_ziglib/archive/068c7278700e40261b88cca610a07224a1953514.tar.gz",
+            // "[multihash - sha256-2]",
+            .hash = "12205a452894ea0c9286499f11940d462244b6faf9107f8322da57a75ca1b81c4e91",
+        },
+    },
+
+    .paths = .{
+        // This makes *all* files, recursively, included in this package. It is generally
+        // better to explicitly list the files and directories instead, to insure that
+        // fetching from tarballs, file system paths, and version control all result
+        // in the same contents hash.
+        "",
+        // For example...
+        //"build.zig",
+        //"build.zig.zon",
+        //"src",
+        //"LICENSE",
+        //"README.md",
+    },
+}
