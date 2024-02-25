@@ -2,7 +2,7 @@
 
 The error messages and backwards incompatible changes are not very great,
 if one deviates in any form from via arguments and alike.
-So here these example projects.
+So here are example projects.
 
 Publish date: So 25. Feb 17:53:01 CET 2024
 
